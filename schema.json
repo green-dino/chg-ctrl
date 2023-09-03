@@ -1,0 +1,52 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "JSON Schema for Derived Report version 1.2",
+    "id": "https://csrc.nist.gov/1.2/olir_derived_report_json_1.2.schema",
+    "definitions": {
+		  "def_derived_relationship_item": {
+			  "description": "Defines a derived relationship item.",
+			  "type": "object",
+        "properties": {
+          "Focal_Document_Element": { "type": "string" },
+          "Focal_Document_Element_Description": { "type": "string" },
+          "Security_Control_Baseline": { "type": "string" },
+          "Informative_Reference_Name": { "type": "string" },
+          "Reference_Document_Element": { "type": "string" },
+          "Rationale": { "type": "string" },
+          "Relationship": { "type": "string" },
+          "Strength_of_Relationship": { "type": "string" },
+          "Reference_Document_Element_Description": { "type": "string" },
+          "Fulfilled_by": { "type": "string" },
+          "Comments": { "type": "string" },
+          "Group_Identifier": { "type": "string" }
+        },
+			"required": [
+				"Informative_Reference_Name"
+			]
+	    }
+    },
+    "type": "object",
+    "properties": {
+        "Focal_Document": {"type": "string"},
+        "Information_Reference_Name_1": {"type": "string"},
+        "Information_Reference_Name_2": {"type": "string"},
+        "Information_Reference_Name_3": {"type": "string"},
+        "Information_Reference_Name_4": {"type": "string"},
+        "Function": {"type": "array"},
+        "Category": {"type": "array"},
+        "Subcategory": {"type": "array"},
+        "Rationale": {"type": "array"},
+        "Relationship": {"type": "array"},
+        "Report_Date": {"type": "string"},
+        "Derived_Relationships": {
+             "description": "Array of derived relationships",
+             "type": "array",
+             "items": {"$ref": "#/definitions/def_derived_relationship_item"}
+        }
+    },
+    "required": [
+        "Focal_Document",
+        "Information_Reference_Name_1",
+        "Information_Reference_Name_2"
+    ]
+}

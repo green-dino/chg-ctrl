@@ -1,0 +1,95 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "CCE Schema",
+    "type": "object",
+    "properties": {
+      "CCE": {
+        "type": "object",
+        "properties": {
+          "Phase1": {
+            "type": "object",
+            "properties": {
+              "Subcategories": {
+                "type": "object",
+                "properties": {
+                  "events_1": {
+                    "type": "object"
+                  },
+                  "cyberEvents_1": {
+                    "type": "object"
+                  },
+                  "scoring_1": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          },
+          "Phase2": {
+            "type": "object",
+            "properties": {
+              "Subcategories": {
+                "type": "object",
+                "properties": {
+                  "InformationGathering_1": {
+                    "type": "object"
+                  },
+                  "SystemDiagrams_1": {
+                    "type": "object"
+                  },
+                  "Interviews_1": {
+                    "type": "object"
+                  },
+                  "Manuals_1": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          },
+          "Phase3": {
+            "type": "object",
+            "properties": {
+              "Subcategories": {
+                "type": "object",
+                "properties": {
+                  "BoundaryCondition": {
+                    "type": "object",
+                    "properties": {
+                      "Subcategories": {
+                        "type": "object",
+                        "properties": {
+                          "TechnicalApproach_1": {
+                            "type": "object"
+                          },
+                          "TargetingDetails_1": {
+                            "type": "object"
+                          },
+                          "SystemTargetingProfile_1": {
+                            "type": "object"
+                          },
+                          "CriticalNeeds_1": {
+                            "type": "object"
+                          },
+                          "AttackScenarios_1": {
+                            "type": "object"
+                          },
+                          "Payload_1": {
+                            "type": "object"
+                          },
+                          "HCE_1": {
+                            "type": "object"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

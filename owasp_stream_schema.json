@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "OWASP SAMM2 Activity Stream Schema",
+    "type": "object",
+    "properties": {
+      "practice": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "letter": {
+        "type": "string",
+        "enum": ["A", "B"]
+      },
+      "description": {
+        "type": "string"
+      },
+      "order": {
+        "type": "integer"
+      },
+      "type": {
+        "type": "string",
+        "enum": ["Stream"]
+      }
+    },
+    "required": ["practice", "id", "name", "letter", "description", "order", "type"]
+  }
+  

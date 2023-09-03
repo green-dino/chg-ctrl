@@ -1,0 +1,34 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "OWASP SAMM2 Coverage Question Schema",
+    "type": "object",
+    "properties": {
+      "activity": {
+        "type": "string"
+      },
+      "answerset": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "text": {
+        "type": "string"
+      },
+      "order": {
+        "type": "integer"
+      },
+      "quality": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "type": {
+        "type": "string",
+        "enum": ["Question"]
+      }
+    },
+    "required": ["activity", "answerset", "id", "text", "order", "quality", "type"]
+  }
+  

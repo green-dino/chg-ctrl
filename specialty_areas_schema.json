@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Specialty Area Schema",
+    "type": "object",
+    "properties": {
+      "SpecialtyArea": {
+        "type": "object",
+        "properties": {
+          "SpecialtyAreaDescription": {
+            "type": "string"
+          },
+          "WorkRole": {
+            "type": "object",
+            "properties": {
+              "Name": {
+                "type": "string"
+              },
+              "WorkRoleDescription": {
+                "type": "string"
+              },
+              "WorkRoleID": {
+                "type": "string"
+              },
+              "Knowledge": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "Skills": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "Abilities": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "Tasks": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": ["Name", "WorkRoleID", "Knowledge", "Skills", "Abilities", "Tasks"]
+          }
+        },
+        "required": ["SpecialtyAreaDescription", "WorkRole"]
+      }
+    }
+  }
+  

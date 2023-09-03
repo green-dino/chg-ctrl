@@ -1,0 +1,54 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "OWASP SAMM2 Business Function Schema",
+    "type": "object",
+    "properties": {
+      "model": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "color": {
+        "type": "object",
+        "properties": {
+          "r": {
+            "type": "number"
+          },
+          "g": {
+            "type": "number"
+          },
+          "b": {
+            "type": "number"
+          }
+        }
+      },
+      "logo": {
+        "type": "string"
+      },
+      "order": {
+        "type": "integer"
+      },
+      "type": {
+        "type": "string",
+        "enum": ["Function"]
+      }
+    },
+    "required": [
+      "model",
+      "id",
+      "name",
+      "description",
+      "color",
+      "logo",
+      "order",
+      "type"
+    ]
+  }
+  

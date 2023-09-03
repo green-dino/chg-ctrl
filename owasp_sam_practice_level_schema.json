@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "OWASP SAMM2 Security Practice Level Schema",
+    "type": "object",
+    "properties": {
+      "practice": {
+        "type": "string"
+      },
+      "maturitylevel": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "objective": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string",
+        "enum": ["PracticeLevel"]
+      }
+    },
+    "required": ["practice", "maturitylevel", "id", "objective", "type"]
+  }
+  

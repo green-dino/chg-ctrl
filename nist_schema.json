@@ -1,0 +1,66 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "NIST 800-53 Core Components",
+    "type": "object",
+    "properties": {
+      "security_controls": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "family": {
+              "type": "string"
+            },
+            "control_id": {
+              "type": "string"
+            },
+            "control_name": {
+              "type": "string"
+            },
+            "control_description": {
+              "type": "string"
+            },
+            "control_objectives": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "control_requirements": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "control_status": {
+              "type": "string"
+            }
+          },
+          "required": ["family", "control_id", "control_name", "control_description", "control_status"]
+        }
+      },
+      "control_families": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "family_name": {
+              "type": "string"
+            },
+            "family_description": {
+              "type": "string"
+            },
+            "controls": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": ["family_name", "family_description", "controls"]
+        }
+      }
+    },
+    "required": ["security_controls", "control_families"]
+  }
+  

@@ -1,0 +1,67 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "OWASP SAMM Activity Description Schema",
+    "type": "object",
+    "properties": {
+      "stream": {
+        "type": "string"
+      },
+      "level": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "benefit": {
+        "type": "string"
+      },
+      "shortDescription": {
+        "type": "string"
+      },
+      "longDescription": {
+        "type": "string"
+      },
+      "results": {
+        "type": "object"
+      },
+      "metrics": {
+        "type": "object"
+      },
+      "costs": {
+        "type": "object"
+      },
+      "personnel": {
+        "type": "object"
+      },
+      "notes": {
+        "type": "string"
+      },
+      "relatedActivities": {
+        "type": "object"
+      },
+      "type": {
+        "type": "string",
+        "enum": ["Activity"]
+      }
+    },
+    "required": [
+      "stream",
+      "level",
+      "id",
+      "title",
+      "benefit",
+      "shortDescription",
+      "longDescription",
+      "results",
+      "metrics",
+      "costs",
+      "personnel",
+      "notes",
+      "relatedActivities",
+      "type"
+    ]
+  }
+  

@@ -1,0 +1,156 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Control Schema",
+    "type": "object",
+    "properties": {
+      "Control": {
+        "type": "object",
+        "properties": {
+          "ShortNumber": {
+            "type": "string"
+          },
+          "GroupNumber": {
+            "type": "object",
+            "properties": {
+              "Primary": {
+                "type": "string"
+              },
+              "Secondary": {
+                "type": "string"
+              }
+            }
+          },
+          "Description": {
+            "type": "string"
+          },
+          "DiscussionQuestions": {
+            "type": "string"
+          },
+          "FilesEvidence": {
+            "type": "string"
+          },
+          "Status": {
+            "type": "string"
+          },
+          "Priority": {
+            "type": "string"
+          },
+          "Selected": {
+            "type": "boolean"
+          },
+          "LastUpdated": {
+            "type": "string"
+          },
+          "Requirements": {
+            "type": "string"
+          },
+          "Estimate": {
+            "type": "object",
+            "properties": {
+              "Design": {
+                "type": "string"
+              },
+              "Implementation": {
+                "type": "string"
+              }
+            }
+          },
+          "ProjectTimeline": {
+            "type": "object",
+            "properties": {
+              "Start": {
+                "type": "string"
+              },
+              "End": {
+                "type": "string"
+              }
+            }
+          },
+          "ResponsibleTeam": {
+            "type": "string"
+          },
+          "TeamMembers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "Maintenance": {
+            "type": "string"
+          },
+          "ReviewDate": {
+            "type": "string"
+          },
+          "ItemID": {
+            "type": "string"
+          },
+          "Exception": {
+            "type": "object",
+            "properties": {
+              "Required": {
+                "type": "boolean"
+              },
+              "For": {
+                "type": "string"
+              },
+              "Duration": {
+                "type": "object",
+                "properties": {
+                  "Start": {
+                    "type": "string"
+                  },
+                  "End": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "CSFGroup": {
+            "type": "string"
+          },
+          "Responsibilities": {
+            "type": "object",
+            "properties": {
+              "Responsible": {
+                "type": "string"
+              },
+              "Accountable": {
+                "type": "string"
+              },
+              "Consulted": {
+                "type": "string"
+              },
+              "Informed": {
+                "type": "string"
+              }
+            }
+          },
+          "Monitoring": {
+            "type": "object",
+            "properties": {
+              "Visibility": {
+                "type": "string"
+              },
+              "Alerting": {
+                "type": "string"
+              },
+              "Detection": {
+                "type": "string"
+              },
+              "Telemetry": {
+                "type": "string"
+              },
+              "Signals": {
+                "type": "string"
+              }
+            }
+          },
+          "Components": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+  
