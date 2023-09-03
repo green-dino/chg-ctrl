@@ -1,0 +1,27 @@
+{
+    "CybersecurityFramework": {
+      "Phases": [
+        {
+          "Name": "Identify",
+          "Description": "In this phase, organizations identify and understand their cybersecurity risks, assets, and vulnerabilities."
+        },
+        {
+          "Name": "Protect",
+          "Description": "The protect phase focuses on implementing safeguards and security measures to prevent or reduce the impact of cybersecurity threats."
+        },
+        {
+          "Name": "Detect",
+          "Description": "During this phase, organizations set up mechanisms to detect and monitor for cybersecurity incidents and anomalies."
+        },
+        {
+          "Name": "Respond",
+          "Description": "In the respond phase, organizations develop strategies and procedures for responding to cybersecurity incidents in a timely and effective manner."
+        },
+        {
+          "Name": "Recover",
+          "Description": "The recover phase involves planning and implementing measures to restore normal operations and services after a cybersecurity incident."
+        }
+      ]
+    }
+  }
+  

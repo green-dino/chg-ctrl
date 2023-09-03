@@ -1,0 +1,34 @@
+{
+  "CCE": {
+      "Phase1": {
+          "Subcategories": {
+              "events_1": {},
+              "cyberEvents_1": {},
+              "scoring_1": {}
+          }
+      },
+      "Phase2": {
+          "Subcategories": {
+              "InformationGathering_1": {},
+              "SystemDiagrams_1": {},
+              "Interviews_1": {},
+              "Manuals_1": {}
+          }
+      },
+      "Phase3": {
+          "Subcategories": {
+              "BoundaryCondition": {
+                  "Subcategories": {
+                      "TechnicalApproach_1": {},
+                      "TargetingDetails_1": {},
+                      "SystemTargetingProfile_1": {},
+                      "CriticalNeeds_1": {},
+                      "AttackScenarios_1": {},
+                      "Payload_1": {},
+                      "HCE_1": {}
+                  }
+              }
+          }
+      }
+  }
+}

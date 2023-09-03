@@ -1,0 +1,66 @@
+{
+    "CybersecurityRoles": {
+      "OPERATEandMAINTAIN": {
+        "Subcategories": {
+          "DataAdministration": {},
+          "KnowledgeManagement": {},
+          "CustomerServiceandTechnicalSupport": {},
+          "NetworkServices": {},
+          "SystemsAdministration": {},
+          "SystemsAnalysis": {}
+        }
+      },
+      "SECURELYPROVISION": {
+        "Subcategories": {
+          "RiskManagement": {},
+          "SoftwareDevelopment": {},
+          "SystemsArchitecture": {},
+          "TechnologyR&D": {},
+          "SystemsRequirementsPlanning": {},
+          "TestandEvaluation": {},
+          "SystemsDevelopment": {}
+        }
+      },
+      "OVERSEEandGOVERN": {
+        "Subcategories": {
+          "LegalAdviceandAdvocacy": {},
+          "TrainingEducationandAwareness": {},
+          "CybersecurityManagement": {},
+          "StrategicPlanningandPolicy": {},
+          "ExecutiveCyberLeadership": {},
+          "ProgramProjectManagementandAcquisition": {}
+        }
+      },
+      "PROTECTandDEFEND": {
+        "Subcategories": {
+          "CybersecurityDefenseAnalysis": {},
+          "CybersecurityDefenseInfrastructureSupport": {},
+          "IncidentResponse": {},
+          "VulnerabilityAssessmentandManagement": {}
+        }
+      },
+      "ANALYZE": {
+        "Subcategories": {
+          "ThreatAnalysis": {},
+          "ExploitationAnalysis": {},
+          "AllSourceAnalysis": {},
+          "Targets": {},
+          "LanguageAnalysis": {}
+        }
+      },
+      "COLLECTandOPERATE": {
+        "Subcategories": {
+          "CollectionOperations": {},
+          "CyberOperationalPlanning": {},
+          "CyberOperations": {}
+        }
+      },
+      "INVESTIGATE": {
+        "Subcategories": {
+          "CyberInvestigation": {},
+          "DigitalForensics": {}
+        }
+      }
+    }
+  }
+  

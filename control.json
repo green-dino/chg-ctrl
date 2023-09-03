@@ -1,0 +1,56 @@
+{
+    "Control": {
+        "ShortNumber": "",
+        "GroupNumber": {
+            "Primary": "",
+            "Secondary": ""
+        },
+        "Description": "Updated Description",
+        "DiscussionQuestions": "",
+        "FilesEvidence": "",
+        "Status": "InProgress",
+        "Priority": "",
+        "Selected": false,
+        "LastUpdated": "",
+        "Requirements": "",
+        "Estimate": {
+            "Design": "",
+            "Implementation": ""
+        },
+        "ProjectTimeline": {
+            "Start": "",
+            "End": ""
+        },
+        "ResponsibleTeam": "",
+        "TeamMembers": [
+            "Team Member 1",
+            "Team Member 2"
+        ],
+        "Maintenance": "",
+        "ReviewDate": "",
+        "ItemID": "",
+        "Exception": {
+            "Required": false,
+            "For": "",
+            "Duration": {
+                "Start": "",
+                "End": ""
+            }
+        },
+        "CSFGroup": "",
+        "Responsibilities": {
+            "Responsible": "RCSF",
+            "Accountable": "A-CSF",
+            "Consulted": "C-CSF",
+            "Informed": "I-CSF"
+        },
+        "Monitoring": {
+            "Visibility": "",
+            "Alerting": "",
+            "Detection": "",
+            "Telemetry": "",
+            "Signals": ""
+        },
+        "Components": ""
+    }
+}
